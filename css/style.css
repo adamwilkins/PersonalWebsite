@@ -212,6 +212,11 @@ nav ul a {
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
+#inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 480px) {
     .text_h {
         padding: 4% 0;
@@ -262,4 +267,21 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+section {
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+div#one {
+    
+    height: 75px;
+    float: left;
+}
+div#two {
+    
+    height: 75px;
+    float: right;
 }
